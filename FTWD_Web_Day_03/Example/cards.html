@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Tab Name -->
+    <title>My First Website</title>
+
+    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Link style sheet here -->
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .box {
+        border: 1px solid black;
+        height: 20vh;
+        width: 20vw;
+      }
+    </style>
+  </head>
+
+  <!-- All your content should go in between the body tags -->
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-light"
+      style="background-color: #e3f2fd"
+    >
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="grid.html"
+            >Grid</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cards.html">Cards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="buttons.html"
+            >Buttons</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lists.html">Lists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photoalbum.html"
+            >Photo Album</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar -->
+
+    <div class="container">
+      <br />
+
+      <!-- Three Rows -->
+      <div class="row">
+        <div class="col">
+          <!-- CARD BEGINNING -->
+          <div class="card mb-4 box-shadow">
+            <img
+              class="card-img-top"
+              src="https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/d8/images/methode/2019/06/06/6b85d914-883f-11e9-a9bc-e8ed9093c066_image_hires_174926.jpg?itok=w-7o8_Qn&v=1559814571"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                This is a wider card with supporting text
+                below as a natural lead-in to additional
+                content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+          <!-- CARD ENDING -->
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <!-- Padding of the card -->
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Card subtitle
+              </h6>
+              <p class="card-text">
+                Some quick example text to build on the card
+                title and make up the bulk of the card's
+                content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Feature Card -->
+          <div class="card">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">
+                Special title treatment
+              </h5>
+              <p class="card-text">
+                With supporting text below as a natural
+                lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
+          </div>
+          <!-- Feature Card Ending -->
+        </div>
+      </div>
+      <!-- End first row -->
+
+      <!-- Beginning second row -->
+      <div class="row">
+        <div class="col">
+          <!-- Card -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://www.cerclemagazine.com/wp-content/uploads/2017/10/316_N-Atlantic-Ocean-Cliffs-of-Moher-1989.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card
+                title and make up the bulk of the card's
+                content.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
+          </div>
+          <!-- Card  -->
+        </div>
+        <div class="col box">
+          <div class="card">
+            <!-- <div class="card-body"> -->
+            <div class="card-title">hello</div>
+            <div class="card-text">whatsup!</div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="col box"></div>
+      </div>
+      <!-- Beginning second row -->
+      <div class="row">
+        <div class="col box"></div>
+        <div class="col box"></div>
+        <div class="col box"></div>
+      </div>
+      <!-- Three Rows -->
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
